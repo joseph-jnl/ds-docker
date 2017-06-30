@@ -8,6 +8,7 @@ Customized docker image based on: [jupyter/docker-stacks/datascience-notebook/](
 * psycopg2=2.7*
 * pymysql=0.7.9
 * kaggle-cli
+* pytest=3.1.2
 
 ## Install
 Install [docker](https://www.docker.com/community-edition)

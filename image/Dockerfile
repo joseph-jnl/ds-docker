@@ -8,6 +8,7 @@ RUN conda install --quiet --yes --channel conda-forge \
     conda install --quiet --yes \
     'psycopg2=2.7*' \
     'pymysql=0.7.9' \
+    'pytest=3.1.2' \
     && conda clean -tipsy
 
 # Install packages not in conda

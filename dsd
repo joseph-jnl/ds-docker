@@ -4,4 +4,4 @@ echo "Creating data science docker container"
 
 sudo docker run --name "ds-docker" --user root -it --rm \
 -p 8888:8888 -e GRANT_SUDO=yes -v /home/joe/work:/home/jovyan \
-joseph-jnl/ds-docker:latest
+josephjnl/ds-docker:latest

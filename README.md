@@ -1,7 +1,8 @@
 # ds-docker
 
-Customized docker image based on: [jupyter/docker-stacks/datascience-notebook/](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
+Customized data science docker image based on: [jupyter/docker-stacks/datascience-notebook/](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
 
+Additions:
 * altair
 * scrapy
 * xgboost=0.6a

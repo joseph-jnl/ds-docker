@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo docker exec -i -t ds-docker /bin/bash

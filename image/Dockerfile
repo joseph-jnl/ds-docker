@@ -14,4 +14,6 @@ RUN conda install --quiet --yes --channel conda-forge \
     && conda clean -tipsy
 
 # Install packages not in conda
-RUN pip install kaggle-cli
+RUN pip install \
+    'kaggle-cli' \
+    'scikit-plot'

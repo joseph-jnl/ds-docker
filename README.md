@@ -5,6 +5,7 @@ Customized data science docker image based on: [jupyter/docker-stacks/datascienc
 Additions:
 **Visualization**
 * altair
+* scikit-plot
 **ETL**
 * scrapy
 * psycopg2=2.7*

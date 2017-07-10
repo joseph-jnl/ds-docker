@@ -3,16 +3,20 @@
 Customized data science docker image based on: [jupyter/docker-stacks/datascience-notebook/](https://github.com/jupyter/docker-stacks/tree/master/datascience-notebook)
 
 Additions:
+
 **Visualization**
 * altair
 * scikit-plot
+
 **ETL**
 * scrapy
 * psycopg2=2.7*
 * pymysql=0.7.9
 * kaggle-cli
+
 **Machine Learning**
 * xgboost=0.6a
+
 **Unit Testing**
 * pytest=3.1.2
 

@@ -21,5 +21,6 @@ RUN conda install --quiet --yes --channel conda-forge \
 RUN pip install \
     'kaggle-cli' \
     'scikit-plot' \
-    'grip'
+    'grip' \
+    'pyflux'
 

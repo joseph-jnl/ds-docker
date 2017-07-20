@@ -18,6 +18,7 @@ Additions:
 * xgboost=0.6a
 * opencv
 * imblearn
+* pyflux
 
 **Unit Testing**
 * pytest=3.1.2

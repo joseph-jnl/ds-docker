@@ -16,9 +16,14 @@ Additions:
 
 **Machine Learning**
 * xgboost=0.6a
+* opencv
+* imblearn
 
 **Unit Testing**
 * pytest=3.1.2
+
+**Utility**
+* grip
 
 ## Install
 Install [docker](https://www.docker.com/community-edition)

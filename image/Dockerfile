@@ -1,19 +1,20 @@
 FROM jupyter/datascience-notebook
 
 # Additional Conda packages
-RUN conda install --quiet --yes --channel conda-forge \
+RUN conda install --quiet --yes \
+    'psycopg2=2.7*' \
+    'pymysql=0.7.9' \
+    'pytest=3.1.2' \
+
+    && conda install --quiet --yes --channel conda-forge \
     'altair' \
     'scrapy' \
     'icu=58' \
     'xgboost=0.6a2' \
     'opencv' \
     'cookiecutter' \
+    'glmnet'
 #    'category_encoders' \
-    
-    && conda install --quiet --yes \
-    'psycopg2=2.7*' \
-    'pymysql=0.7.9' \
-    'pytest=3.1.2' \
 
     && conda install -c glemaitre imbalanced-learn \
 
@@ -26,8 +27,4 @@ RUN pip install \
     'grip' \
     'pyflux' \
     'scikits.bootstrap'
-
-RUN git clone git@github.com:civisanalytics/python-glmnet.git && \
-    cd python-glmnet && \
-    python setup.py install
 

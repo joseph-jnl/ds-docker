@@ -13,7 +13,7 @@ RUN conda install --quiet --yes \
     'xgboost=0.6a2' \
     'opencv' \
     'cookiecutter' \
-    'glmnet'
+    'glmnet' \
 #    'category_encoders' \
 
     && conda install -c glemaitre imbalanced-learn \

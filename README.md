@@ -21,6 +21,7 @@ Additions:
 * pyflux
 * glmnet
 * scikits.bootstrap
+* category_encoders
 
 **Unit Testing**
 * pytest=3.1.2

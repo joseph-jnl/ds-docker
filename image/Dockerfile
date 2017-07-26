@@ -8,6 +8,7 @@ RUN conda install --quiet --yes --channel conda-forge \
     'xgboost=0.6a2' \
     'opencv' \
     'cookiecutter' \
+    'category_encoders'
     
     && conda install --quiet --yes \
     'psycopg2=2.7*' \

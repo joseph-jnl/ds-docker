@@ -28,7 +28,7 @@ RUN pip install \
     'grip' \
     'pyflux' \
     'scikits.bootstrap' \
-    'missingno'
+    'missingno' \
     'fancyimpute'
 
 RUN git clone http://github.com/civisanalytics/python-glmnet.git \

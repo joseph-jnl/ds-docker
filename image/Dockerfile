@@ -7,7 +7,7 @@ RUN conda install --quiet --yes --channel conda-forge \
     'icu=58' \
     'xgboost=0.6a2' \
     'opencv' \
-    'glmnet' \
+    'cookiecutter' \
     
     && conda install --quiet --yes \
     'psycopg2=2.7*' \
@@ -23,5 +23,10 @@ RUN pip install \
     'kaggle-cli' \
     'scikit-plot' \
     'grip' \
-    'pyflux'
+    'pyflux' \
+    'scikits.bootstrap'
+
+RUN git clone git@github.com:civisanalytics/python-glmnet.git &&
+    cd python-glmnet && 
+    python setup.py install
 

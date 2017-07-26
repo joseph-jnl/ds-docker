@@ -14,18 +14,20 @@ Additions:
 * pymysql=0.7.9
 * kaggle-cli
 
-**Machine Learning**
+**Stats & Machine Learning**
 * xgboost=0.6a
 * opencv
 * imblearn
 * pyflux
 * glmnet
+* scikits.bootstrap
 
 **Unit Testing**
 * pytest=3.1.2
 
 **Utility**
 * grip
+* cookiecutter
 
 ## Install
 Install [docker](https://www.docker.com/community-edition)

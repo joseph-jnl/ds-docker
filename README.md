@@ -7,6 +7,7 @@ Additions:
 **Visualization**
 * altair
 * scikit-plot
+* missingno
 
 **ETL**
 * scrapy
@@ -22,6 +23,7 @@ Additions:
 * glmnet
 * scikits.bootstrap
 * category_encoders
+* fancyimpute
 
 **Unit Testing**
 * pytest=3.1.2

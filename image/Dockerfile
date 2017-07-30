@@ -15,7 +15,7 @@ RUN conda install --quiet --yes \
     'xgboost=0.6a2' \
     'opencv' \
     'cookiecutter' \
-#    'category_encoders' \
+    'category_encoders' \
 
     && conda install -c glemaitre imbalanced-learn \
 
@@ -33,6 +33,6 @@ RUN pip install \
 
 RUN git clone http://github.com/civisanalytics/python-glmnet.git \
     && cd python-glmnet \
-    && python setup.py install
+    && python setup.py install -q
 
 

@@ -7,30 +7,31 @@ Additions:
 **Visualization**
 * altair
 * scikit-plot
-* missingno
+* missingno - Missing values visualization
 
 **ETL**
-* scrapy
-* psycopg2=2.7*
-* pymysql=0.7.9
+* scrapy - Web scraping
+* psycopg2=2.7* - Postgres sqlalchemy driver
+* pymysql=0.7.9 - MySQL sqlalchemy driver
 * kaggle-cli
 
 **Stats & Machine Learning**
 * xgboost=0.6a
-* opencv
-* imblearn
-* pyflux
+* opencv - Image processing
+* imblearn - Under/over sampling
+* pyflux - Time series forecasting
 * glmnet
 * scikits.bootstrap
-* category_encoders
-* fancyimpute
+* category_encoders - Alternatives to onehot encoding
+* fancyimpute - Alternatives to simple mean/median imputation
+* pymc - Bayesian stats
 
 **Unit Testing**
 * pytest=3.1.2
 
 **Utility**
 * grip
-* cookiecutter
+* cookiecutter - Project templates
 
 ## Install
 Install [docker](https://www.docker.com/community-edition)

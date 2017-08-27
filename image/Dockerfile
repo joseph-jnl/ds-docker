@@ -17,6 +17,8 @@ RUN conda install --quiet --yes \
     'cookiecutter' \
     'category_encoders' \
 
+    && conda install -c https://conda.binstar.org/pymc pymc \
+
     && conda install -c glemaitre imbalanced-learn \
 
     && conda clean -tipsy
@@ -35,4 +37,5 @@ RUN git clone http://github.com/civisanalytics/python-glmnet.git \
     && cd python-glmnet \
     && python setup.py install -q
 
+RUN ln -s /home/jovyan/ds-toolkit/dstk /opt/conda/lib/python3.6/site-packages
 

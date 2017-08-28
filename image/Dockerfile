@@ -16,7 +16,7 @@ RUN conda install --quiet --yes \
     'opencv' \
     'cookiecutter' \
     'category_encoders' \
-    'pymc' \
+    'pymc3' \
 
     && conda install -c glemaitre imbalanced-learn \
 

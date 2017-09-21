@@ -25,6 +25,7 @@ Additions:
 * category_encoders - Alternatives to onehot encoding
 * fancyimpute - Alternatives to simple mean/median imputation
 * pymc - Bayesian stats
+* h2o - java ml algos
 
 **Unit Testing**
 * pytest=3.1.2
@@ -32,6 +33,7 @@ Additions:
 **Utility**
 * grip
 * cookiecutter - Project templates
+* awscli - Amazon EC2 command line
 
 ## Install
 Install [docker](https://www.docker.com/community-edition)

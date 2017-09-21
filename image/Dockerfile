@@ -7,6 +7,7 @@ RUN conda install --quiet --yes \
     'pytest=3.1.2' \
     'gcc' \
     'swig' \
+    'h2o' \
 
     && conda install --quiet --yes --channel conda-forge \
     'altair' \
@@ -30,7 +31,8 @@ RUN pip install \
     'pyflux' \
     'scikits.bootstrap' \
     'missingno' \
-    'fancyimpute'
+    'fancyimpute' \
+    'awscli'
 
 RUN git clone http://github.com/civisanalytics/python-glmnet.git \
     && cd python-glmnet \

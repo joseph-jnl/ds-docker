@@ -7,7 +7,7 @@ RUN conda install --quiet --yes \
     'pytest=3.1.2' \
     'gcc' \
     'swig' \
-    'h2o-py' \
+    'colorama' \
 
     && conda install --quiet --yes --channel conda-forge \
     'altair' \
@@ -32,7 +32,8 @@ RUN pip install \
     'scikits.bootstrap' \
     'missingno' \
     'fancyimpute' \
-    'awscli'
+    'awscli' \
+    'https://h2o-release.s3.amazonaws.com/h2o/rel-weierstrass/2/Python/h2o-3.14.0.2-py2.py3-none-any.whl'
 
 RUN git clone http://github.com/civisanalytics/python-glmnet.git \
     && cd python-glmnet \

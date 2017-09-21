@@ -7,7 +7,7 @@ RUN conda install --quiet --yes \
     'pytest=3.1.2' \
     'gcc' \
     'swig' \
-    'h2o' \
+    'h2o-py' \
 
     && conda install --quiet --yes --channel conda-forge \
     'altair' \
